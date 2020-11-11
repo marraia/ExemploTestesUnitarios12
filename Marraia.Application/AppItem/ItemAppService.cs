@@ -12,11 +12,11 @@ namespace Marraia.Application.AppItem
     public class ItemAppService : IItemAppService
     {
         private readonly IItemRepositorio _itemRepository;
-        private readonly IStockRepository _stockRepository;
+        private readonly IStockRepositorio _stockRepository;
 
         public ItemAppService(
             IItemRepositorio itemRepository,
-            IStockRepository stockRepository
+            IStockRepositorio stockRepository
         )
         {
             _itemRepository = itemRepository;

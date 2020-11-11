@@ -8,8 +8,6 @@ namespace Marraia.Application.AppItem.Interfaces
 {
     public interface IItemAppService
     {
-        Task InsertAsync(Item item);
-        Task<Item> GetByIdAsync(Guid id);
-        Task<IEnumerable<Item>> GetAllAsync();
+
     }
 }
